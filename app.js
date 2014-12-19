@@ -10,7 +10,7 @@ var http = require('http');
 var path = require('path');
 
 var app = express();
-mongoose.connect('mongodb://root:root$toor@172.16.102.42:27017/pedidos_hospi');
+mongoose.connect('mongodb://root:r$toor@172.16.102.2:27017/pedidos_hospi');
 // all environmentss
 app.set('port', process.env.PORT ||3000 );
 app.set('views', path.join(__dirname, 'views'));
